@@ -1,0 +1,5 @@
+Code related to the Action Reaearch project that uses pypsa (pypsa.org) and atilite
+To use these code you will need python installed and
+  pypsa (https://docs.pypsa.org/latest/home/users/)
+  atilite (https://github.com/PyPSA/atlite)
+All other commonly required libraries imported by the code should be installed. 
