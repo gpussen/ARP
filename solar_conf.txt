@@ -1,0 +1,9 @@
+# solar_conf.txt - Cost parameters for solar PV in India (2025–2026)
+# Village / community scale (10–500 kW systems)
+
+capital_cost    = 38000       # INR/kW  (benchmark ~₹36,000–42,000/kW in 2025–26)
+lifetime        = 20         # years
+fom             = 800         # INR/kW/year  (cleaning, minor repairs, insurance)
+vom             = 0.15        # INR/kWh      (very low)
+wacc            = 0.095       # ~9.5% – typical for solar projects in India today
+efficiency      = 1.0         # not directly used (panel efficiency is in atlite CF)

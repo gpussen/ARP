@@ -1,0 +1,9 @@
+# wind_conf.txt - Cost parameters for small/medium onshore wind in India (INR)
+# Approximate values for 2025–2026, village/microgrid scale
+
+capital_cost = 60000     # INR/kW INR/kW  (installation + turbine + foundation + grid connection)
+lifetime     = 30	# years
+fom          = 1000     # INR/kW/year  (fixed O&M, insurance, land lease, etc.)
+vom          = 0.7	# INR/kWh      (very low variable O&M)
+wacc         = 0.10        # Weighted Average Cost of Capital (higher in India than developed markets)
+efficiency      = 1.0         # not used for wind, but kept for consistency
